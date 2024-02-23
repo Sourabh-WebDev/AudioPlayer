@@ -1,0 +1,49 @@
+
+.app {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.title {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.playlist-container {
+  margin-bottom: 20px;
+}
+
+.playlist {
+  list-style-type: none;
+  padding: 0;
+}
+
+.track-button {
+  display: block;
+  width: 100%;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px;
+  margin-bottom: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.track-button:hover {
+  background-color: #0056b3;
+}
+
+.track-button.active {
+  background-color: #0056b3;
+}
+
+.player-container {
+  text-align: center;
+}
+
+.audio-player {
+  width: 100%;
+  margin-top: 20px;
+}
